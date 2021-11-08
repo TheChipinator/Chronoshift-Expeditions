@@ -1,0 +1,258 @@
+/*Image/Color Replacements to keep website style-ish*/
+.myDiv {
+    background-color: Gainsboro ;
+    text-align: center;
+  }
+  .insidediv {
+      width: 10vw;
+      height: 3vh;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1vw;
+  }
+  .footerbottomdiv {
+      height: 5vh;
+      background-color: Gainsboro ;
+      text-align: center;
+}     
+
+/*Text Box*/
+
+.textboxdiv {
+      width: 300px;
+      height: 150px;
+      padding: 20px;          
+      margin: 15px;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1vw;
+  }     
+
+/*Button(s)*/
+
+      .button {
+          border: none;
+          color: Gainsboro ;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          font-size: 1vw;
+      }
+      .booknow2button {
+        border: none;
+        color: Gainsboro ;
+        width: 8vw;
+        height: 5vh;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 1vw;
+        background-color: #C0C0C0;
+    }
+      .homebutton {
+        border: none;
+        color: Gainsboro ;
+        overflow: hidden;
+        width: 12vh;
+        height: 3vh;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1vw;
+    }
+    .submitbutton {
+        border: none;
+        color: black ;
+        overflow: hidden;
+        width: 12vh;
+        height: 3vh;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1vw;
+    }
+      .Home_Page {
+          border-radius: 8px; 
+          background-color: #C0C0C0;
+        }
+      .Location {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Tours_Safaris {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .About_Us_Contact_Us {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Rules {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Book_Now {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .descriptionbox {
+        width: 500px;
+        height: 100px;
+        padding: 20px;          
+        margin: 15px;
+        background-color: silver ;
+        text-align: center;
+        border-radius: 8px;
+    } 
+
+/*Minor Anti-Collision Fix*/
+
+    textarea {
+        resize: none;
+      }
+  .worldholderdiv {
+      width: 180px;
+      height: 15px;
+      padding: 20px;          
+      margin: 15px;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+  }
+  .invisbleworldholderdiv {
+      width: 180px;
+      height: 15px;
+      padding: 20px;          
+      margin: 15px;
+      text-align: center;
+      border-radius: 8px;
+  } 
+
+/*Image(s)*/
+
+  .avatar {
+      vertical-align: middle;
+      width: 508px;
+      height: 762px;
+  }  
+  .avatar2 {
+    vertical-align: middle;
+    width: 50vw;
+    height: 50vh;
+}       
+
+/*Box(es)*/
+
+  .our-container{ 
+      display:flex; 
+      flex-direction: row; 
+      flex-wrap: nowrap; 
+      justify-content: space-around; 
+  } 
+  .rectanglediv {
+    width: 1000px;
+    height: 350px;
+    padding: 20px;          
+    margin: 15px;
+    background-color: silver ;
+    text-align: center;
+    border-radius: 8px;
+}  
+
+/*Top-Nav, Footer And Body*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: silver;
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.footer a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer a:hover {
+    background-color: #ddd;
+    color: silver;
+}
+
+.footer a.active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+.booknowtextboxdivseven {
+    width: 30vw;
+    height: 87vh;
+    background-color: silver ;
+    text-align: center;
+    font-size: 1vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}     
+
+/*Font Size*/
+
+.fontsize {
+    font-size: 1.4em;
+}
+
+/*Centered Items*/
+
+.centeredcontent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .centeredbutton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

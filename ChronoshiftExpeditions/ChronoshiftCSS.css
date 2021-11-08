@@ -1,0 +1,264 @@
+/*Background Images/Color(s)*/
+.myDiv {
+    background-color: Gainsboro ;
+    text-align: center;
+  }
+  .insidediv {
+      width: 10vw;
+      height: 3vh;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1vw;
+  }
+
+/*Text Box*/
+
+.textboxdiv {
+      width: 300px;
+      height: 150px;
+      padding: 20px;          
+      margin: 15px;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 1vw;
+  }     
+
+/*Buttons*/
+
+      .button {
+          border: none;
+          color: black ;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          font-size: 1vw;
+      }
+      .homebutton {
+        border: none;
+        display: inline-block;
+        color: black ;
+        overflow: hidden;
+        padding: .2vw 2vh;
+        width: 12vh;
+        height: 6vh;
+        text-align: center;
+        cursor: pointer;
+        font-size: 1vw;
+    }
+
+      .Home_Page {
+          border-radius: 8px; 
+          background-color: #C0C0C0;
+        }
+      .Location {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Tours_Safaris {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .About_Us_Contact_Us {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Rules {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .Book_Now {
+        border-radius: 8px; 
+        background-color: #C0C0C0;
+      }
+      .descriptionbox {
+        width: 500px;
+        height: 100px;
+        padding: 20px;          
+        margin: 15px;
+        background-color: silver ;
+        text-align: center;
+        border-radius: 8px;
+    } 
+
+/*Text Box Fix*/
+
+    textarea {
+        resize: none;
+      }
+
+/*Anti-Bug/Dysfunctional website patch(es)*/
+
+  .worldholderdiv {
+      width: 180px;
+      height: 15px;
+      padding: 20px;          
+      margin: 15px;
+      background-color: silver ;
+      text-align: center;
+      border-radius: 8px;
+  }
+  .invisbleworldholderdiv {
+      width: 180px;
+      height: 15px;
+      padding: 20px;          
+      margin: 15px;
+      text-align: center;
+      border-radius: 8px;
+  } 
+
+/*Image(s)*/
+  
+  .avatar {
+      vertical-align: middle;
+      width: 508px;
+      height: 762px;
+  }  
+  .avatar2 {
+    vertical-align: middle;
+    width: 762px;
+    height: 508px;
+}    
+.avatar3 {
+    vertical-align: middle;
+    width: 60vw;
+    height: 60vh;
+}     
+
+/*Box(s)*/
+
+  .our-container{ 
+      display:flex; 
+      flex-direction: row; 
+      flex-wrap: nowrap; 
+      justify-content: space-around; 
+  } 
+  .rectanglediv {
+    width: 60vw;
+    height: 35vh;
+    background-color: silver ;
+    text-align: center;
+    overflow: hidden;
+}  
+
+.rectangledivhmpage {
+    width: 60vw;
+    height: 30vh;
+    display:flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: space-around; 
+}  
+
+.rectangledivtox {
+    width: 40vw;
+    height: 20vh;
+    background-color: silver ;
+    text-align: center;
+}  
+
+.homepagebox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 62vw;
+    height: 37vh;
+    background-color: silver ;
+    text-align: center;
+    overflow: hidden;
+}
+
+.insidedivtox {
+    width: 15vw;
+    height: 3vh;
+    background-color: silver ;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1vw;
+}
+
+/*Top-Nav, Footer And Body*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: silver;
+}
+
+.topnav a.active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.altfooter {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #DCDCDC;
+}
+
+.footer a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer a:hover {
+    background-color: #ddd;
+    color: silver;
+}
+
+.footer a.active {
+    background-color: #000000;
+    color: gainsboro;
+}
+
+/*Font Size Patch*/
+
+.fontsize {
+    font-size: 1.4em;
+}
+
+/*Centered Item(s)*/
+
+.centeredcontent {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
